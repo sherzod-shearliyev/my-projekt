@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__link {
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+}
